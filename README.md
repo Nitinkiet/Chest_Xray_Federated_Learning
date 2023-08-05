@@ -4,20 +4,20 @@ The Chest X-ray Federated Learning project is a Python-based implementation of f
 
 ## Features
 
-### Federated Learning: 
+### 1. Federated Learning: 
 The project implements federated learning techniques, allowing multiple healthcare institutions to collaboratively train machine learning models without sharing raw data.
 
-### Chest X-ray Dataset:
+### 2. Chest X-ray Dataset:
 The project utilizes a chest X-ray dataset, which includes a collection of chest X-ray images and their corresponding labels.
 
-### Client-Server Architecture:
+### 3. Client-Server Architecture:
 The federated learning system follows a client-server architecture, where a central server coordinates the training process, and clients (healthcare institutions) contribute to model training using their local data.
 
-### Privacy Preservation:
+### 4. Privacy Preservation:
 The project ensures data privacy by using techniques like federated averaging, secure aggregation, or differential privacy to protect sensitive patient information during the federated learning process.
 
-### Model Evaluation:
+### 5. Model Evaluation:
 The implementation includes evaluation mechanisms to assess the performance of the trained models using validation datasets.
 
-### Model Aggregation:
+### 6. Model Aggregation:
 The central server aggregates model updates from clients to create a global model, leveraging techniques like federated averaging to combine the local models effectively.
